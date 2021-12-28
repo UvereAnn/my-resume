@@ -4,12 +4,12 @@
     left: 0;
     top: 0;
     right: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
+p,li{
     text-align: justify;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .profile-p{
@@ -18,12 +18,11 @@ p{
 }
 
 .container{
-    border: rgb(241, 241, 227) solid 2px;
     background-color: rgb(248, 242, 242);
 }
 
 .header{
-    background-color: rgb(150, 125, 173);
+    background-color: #043442;
 }
 
 /**.img-fluid{
@@ -64,7 +63,7 @@ hr {
 }
 
 .links a{
-    color: rgba(8, 235, 235, 0.979);
+    color: #F16C59;
     text-decoration: none;
     padding: 0px 10px;
     font-weight: 600;
@@ -73,14 +72,23 @@ hr {
 }
 
 .profile{
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 5px 0px 0px 2px;
+}
+
+.Proffesional-Experience{
+    margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
     border-width: 5px 0px 0px 2px;
 }
 
 .head{
-    color: rgba(8, 235, 235, 0.979);
+    color: #2C316F;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .row{
@@ -105,7 +113,16 @@ hr {
 }
 
 .project a{
-    color: rgba(8, 235, 235, 0.979);
+    color: #F16C59;
+}
+
+.project-li{
+    font-size: 24px;
+    list-style: none;
+}
+
+.head-training{
+    color: #F16C59;
 }
 
 @media screen and (max-width: 800px) {
@@ -128,14 +145,6 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-
-    h1{
-        font-size: 30px;
-    }
-
-    #linkedin{
-        font-size: 15px;
-    }
 
     .img-fluid {
         flex: 100%;
